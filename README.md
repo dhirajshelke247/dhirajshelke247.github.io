@@ -20,3 +20,11 @@ Then open http://localhost:8765.
 - `assets/css/style.css`: styles; change the accent colour with `--accent` and `--accent-ink`
 - `assets/js/main.js`: theme switch, command menu (⌘K / Ctrl K), scroll effects
 - `assets/Dhiraj_Shelke_Resume.pdf`: public résumé (no phone number)
+- `assets/img/og-image.png`: 1200×630 share preview shown on LinkedIn, WhatsApp and X
+- `assets/img/favicon.svg`: browser tab icon
+
+## Publish changes
+
+Push to `main`. GitHub Pages redeploys in about a minute.
+
+After changing the share image, refresh LinkedIn's cached preview with the [Post Inspector](https://www.linkedin.com/post-inspector/).

@@ -195,6 +195,18 @@ kbd {
   .nav-links { display: none; }
   .menu-btn { display: inline-flex; }
   .kbd-btn kbd { display: none; }
+  /* Phones: no empty bar in the middle. Two floating pills; taps in between reach the page. */
+  .nav {
+    padding: 0; border: 0; background: none; box-shadow: none;
+    -webkit-backdrop-filter: none; backdrop-filter: none;
+    pointer-events: none;
+  }
+  .brand, .nav-actions {
+    pointer-events: auto; padding: 5px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--nav-bg); box-shadow: var(--shadow);
+    -webkit-backdrop-filter: saturate(1.5) blur(16px); backdrop-filter: saturate(1.5) blur(16px);
+  }
+  .brand { display: block; }
 }
 
 /* ---------- Reveal on scroll ---------- */
